@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Nubank Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <section>
+
+        <div class="perfil">
+            <img src="logo-nubank.png" alt="Logo da nubank" id="logo">
+        </div>
+
+        <div class="login">
+            <h1 style="margin-left:-255px ;">Acesse sua conta</h1>
+            <div class="form">
+                <label for="cpf" maxlength="14">CPF</label>
+                <input type="number" name="cpf" id="cpf">
+
+                <label for="senha">Senha</label> <!--<i class="fa fa-eye" aria-hidden="true"></i>--> 
+                <input type="password" name="senha" id="senha">
+                <p>Possui 8 caracteres ou mais</p>
+
+                <button id="continuar">Continuar <i class="fas fa-arrow-right"></i></button>
+
+                <section>
+                    <div class="rodape">
+                        <a href="">Esqueci a senha</a>
+                        <a href="">Não sou cliente</a>
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
